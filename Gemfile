@@ -26,6 +26,9 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 
+# Use haml as template engine
+gem 'haml'
+
 # Use bootstrap-sass because the design was already Bootstrap
 gem 'bootstrap-sass', '~> 3.1.1'
 
