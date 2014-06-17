@@ -1,0 +1,69 @@
+// Import all variables as they will be used in this partial
+@import "twbs-variables";
+@import "bootstrap/variables";
+
+// Typography
+dd {
+	margin-left: 10px;
+}
+
+// Navbar
+.navbar {
+	font-family: "Roboto Condensed", sans-serif;
+}
+.navbar-nav {
+	> li {
+		border-left: 5px solid transparent;
+		> a {
+			padding-left: ($navbar-padding-horizontal - 5px);
+		}
+	}
+	> .active {
+		border-left: 5px solid $navbar-default-link-active-color;
+	}
+}
+.navbar-default {
+	.navbar-text {
+		color: $gray-light;
+	}
+}
+//// Responsive
+@media screen and (min-width: $grid-float-breakpoint) {
+	.navbar-nav {
+		> li {
+			border-left: 1px solid $list-group-border;
+			> a {
+				padding-bottom: ((($navbar-height - $line-height-computed) / 2) - 5px);
+				border-bottom: 5px solid transparent;
+				padding-left: $navbar-padding-horizontal;
+			}
+		}
+	}
+}
+
+// Footer
+footer {
+	margin: 10px 0;
+	border-top: 5px solid $navbar-default-bg;
+	border-bottom: 5px solid $navbar-default-bg;
+	padding: $padding-small-vertical;
+	font-size: $font-size-small;
+}
+
+// Thumbnails
+.thumbnail .caption {
+	font-size: $font-size-small;
+}
+
+// List groups
+.list-group-item {
+	border: 1px solid $list-group-border;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	&.active, &.active:hover, &.active:focus {
+		border: 1px solid $list-group-border;
+		border-left: 1px solid transparent;
+		border-right: 5px solid $list-group-active-border;
+		padding-right: 10px;
+	}
+}

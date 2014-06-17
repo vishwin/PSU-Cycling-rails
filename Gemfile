@@ -32,6 +32,9 @@ gem 'haml'
 # Use bootstrap-sass because the design was already Bootstrap
 gem 'bootstrap-sass', '~> 3.1.1'
 
+# Use Font Awesome for textual icons
+gem 'font-awesome-sass'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
