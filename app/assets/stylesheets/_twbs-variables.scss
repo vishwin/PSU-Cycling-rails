@@ -1,0 +1,43 @@
+// Copy some predefined colours
+$gray-darker:            lighten(#000, 13.5%) !default; // #222
+$gray-dark:              lighten(#000, 20%) !default;   // #333
+$gray:                   lighten(#000, 33.5%) !default; // #555
+$gray-light:             lighten(#000, 60%) !default;   // #999
+$gray-lighter:           lighten(#000, 93.5%) !default; // #eee
+
+$brand-primary:         #428bca !default;
+$brand-success:         #5cb85c !default;
+$brand-info:            #5bc0de !default;
+$brand-warning:         #f0ad4e !default;
+$brand-danger:          #d9534f !default;
+
+// Rest of redefinitions
+$body-bg: #00000A;
+$text-color: $gray-lighter;
+$link-color: $brand-info;
+$font-family-sans-serif: Roboto, sans-serif;
+$font-family-serif: "Noto Serif", serif;
+$font-family-monospace: "Ubuntu Mono", monospace;
+$border-radius-base: 0;
+$border-radius-large: 0;
+$border-radius-small: 0;
+$screen-md: 980px;
+$navbar-default-color: #A3E0FF;
+$navbar-default-bg: #000033;
+$navbar-default-link-color: $navbar-default-color;
+$navbar-default-link-hover-color: lighten($navbar-default-color, 10%);
+$navbar-default-link-active-color: darken($navbar-default-color, 10%);
+$navbar-default-link-active-bg: transparent;
+$navbar-default-brand-hover-color: $navbar-default-link-active-color;
+$navbar-default-toggle-hover-bg: $navbar-default-link-color;
+$navbar-default-toggle-icon-bar-bg: $navbar-default-link-active-color;
+$navbar-default-toggle-border-color: $navbar-default-link-color;
+$list-group-bg: $navbar-default-bg;
+$list-group-border: darken($navbar-default-link-active-color, 55%);
+$list-group-hover-bg: lighten($list-group-bg, 5%);
+$list-group-active-color: $navbar-default-link-active-color;
+$list-group-active-bg: $list-group-bg;
+$list-group-active-border: $navbar-default-link-active-color;
+$thumbnail-border: $list-group-border;
+$thumbnail-caption-padding: 4px;
+$page-header-border-color: $list-group-border;

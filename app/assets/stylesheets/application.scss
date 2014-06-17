@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+// Web fonts first
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,100italic,300italic,400italic,500italic,700italic|Noto+Serif:400,700,400italic,700italic|Ubuntu+Mono:400,700,400italic,700italic|Roboto+Condensed:300,400,300italic,400italic);
+
+// Then Bootstrap modifications
+@import "twbs-variables";
+
+// Finally import Bootstrap itself
+@import "bootstrap";
